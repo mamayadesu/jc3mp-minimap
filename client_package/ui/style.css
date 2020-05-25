@@ -1,13 +1,14 @@
 		body {
 			margin: 0px;
 			color: #fff;
+            opacity: 0.75;
 		}
 		
 		#map {
-			/*height: 300px;
-			width: 300px;*/
-            height: 219.8px;
-            width: 320px;
+            /*height: 200px;
+            width: 300px;*/
+            height: 18.519%;
+            width: 15.1625%;
 			position: fixed !important;
 			/*border-radius: 50%;*/
 			border: 4px solid #292929;
@@ -65,8 +66,11 @@
 		}
         
         #indicators {
-            width: 320px;
-            height: 15px;
+            /*
+            width: 300px;
+            */
+            width: 15.1625%;
+            height: 10px;
             background-color: #292929;
             border-bottom: 4px solid #292929;
             border-left: 4px solid #292929;
@@ -79,13 +83,13 @@
         .ipos-upperleft {
             display: auto;
             left: 0px;
-            top: 223.8px;
+            top: 18.519%;
         }
         
         .ipos-upperright {
             display: auto;
             right: 0px;
-            top: 223.8px;
+            top: 18.519%;
         }
         
         .ipos-bottomleft {

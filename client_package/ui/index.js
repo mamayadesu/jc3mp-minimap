@@ -45,7 +45,7 @@
             const interval = setInterval(() => {
                 jcmp.CallEvent('minimap_getLocalPlayerPos');
                 jcmp.CallEvent('minimap_getLocalPlayerRot');
-            }, 50);
+            }, 100);
 
             jcmp.AddEvent('minimap_setLocalPlayerPos', (pos) => {
                 pos = JSON.parse(pos);

@@ -162,7 +162,7 @@ function startUseOxygen() {
         window.oxygenRecoveryInterval = null;
         setOxygen(100);
     }
-    var mseconds = 34000;
+    var mseconds = 23000;
     var until = mseconds + (new Date).getTime();
     window.oxygenUseInterval = setInterval(function() {
         setOxygen(100 * (until - (new Date).getTime()) / mseconds);
